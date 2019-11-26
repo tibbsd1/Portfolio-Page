@@ -4,9 +4,180 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Darrell's A1 Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Darrell's Portfolio</title>
 </head>
 <body>
+   
+    <div class="container-fluid">
+        
+        <div class="row">
+            <h1 class="mainheader-myname">Darrell Tibbs</h1>
+        </div>
+        
+        <div class="row" style="font-size: 50px;" id="job-header">
+            <div class="col-2" id="linkedlink"><a href="https://www.linkedin.com/in/darrelltibbs/" target="blank"><i class="fab fa-linkedin"></i></a>
+                
+            </div>
+            
+            <div class="col-8">
+                    <h3 class="mainheader-job">JavaScript Developer</h3>
+            </div>
+
+            <div class="col-2" id="gitlink"><a href="https://github.com/tibbsd1" target="blank"><i class="fab fa-github"></i></a>
+                    
+            </div>
+        </div>
+
+            
+        
+        <div class="row" id="mainrow">
+            
+            <div class="col">
+                
+            </div>
+                    
+            <div class="col" id="pic-col">
+                    <div><img src="C:\ElevenFiftyProjects\Portfolio_Page\images\DarrelTibbs2.jpg" alt="myface" id="faceboi" style="border:rgba(35, 17, 35, 1) 2px solid">
+                    </div>
+                    </div>
+
+            <div class="col">
+<ul id="menuitems">
+    <li> <a class="listlinks" href="#aboutme">About Me</a></li>
+    <li> <a class="listlinks" href="#projects">Projects</a></li>
+    <li> <a class="listlinks" href="#resume">Resume</a></li>
+    <li> <a class="listlinks" href="#contact">Contact</a></li>
+</ul>
+            </div>
     
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+        <div class="row" id="aboutme">
+            <h1>About Me</h1>
+       </div>
+        <div class="row" id="aboutme-text">
+                <p style="font-size: 25px;"> In 2013 I graduated the University of Dayton with a degree in sports broadcasting. I am currently studying to become a JavaScript developer based in Indianapolis, Indiana. </p>
+        </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <div class="row" id="projects">.
+            <h1>Projects</h1>
+        </div>
+            
+            <div class="card">
+                
+                    <a href="https://tibbsd1.github.io/Tutorial-Page/" target="blank"><p><b>JavaScript Tutorial</b></p></a>
+                <div class="card-body">
+                        <a href="https://tibbsd1.github.io/Tutorial-Page/" target="blank"><img src="C:\ElevenFiftyProjects\Portfolio_Page\images\tutorial screenshot.png" alt="Tutorial image foo" style="max-width: 200px;"></a>
+                </div>
+            </div>    
+
+
+            <div class="card">
+                    
+                    <a href="https://api-proj-18e6a.firebaseapp.com/" target="blank">
+                    <p><b>UFC Event Generator</b></p></a>
+                    <div class="card-body">
+                            <a href="https://api-proj-18e6a.firebaseapp.com/"target="blank"><img src="C:\ElevenFiftyProjects\New Projects\API Project\api thumb.png" alt="" style="max-width: 200px;"></a>
+                        
+                        
+                    </div>
+            </div>        
+            
+            <div class="card">
+                    
+                   <a href="https://codepen.io/dtibbs1/pen/ExxWzQR" alt="" target="blank"> <p><b>CSS Creature</b></p></a>
+                    <div class="card-body">
+                            <a href="https://codepen.io/dtibbs1/pen/ExxWzQR" target="blank"><img src="C:\ElevenFiftyProjects\Portfolio_Page\images\st jojo.png" alt="" style="max-width: 200px;"></a>
+                    
+                        
+                    </div>
+            </div>   
+            <br>
+
+            <div class="row" id="resume" style="text-decoration: none;">
+                <div><a href="C:\ElevenFiftyProjects\Portfolio_Page\Darrell Tibbs_Video Production Resume.docx"><h1>Download My Resume</h1></a></div>
+            </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+            <div class="row" id="contact">
+                <h1>Contact</h1>
+            </div>
+                    <div class="row">
+            <p style="font-size: 25px;"> <b>Email:</b> dtibbs1@udayton.edu<br>
+            <b>Phone:</b> 317-298-4404 <br>
+            </p>
+            </div>
+        </div>    
+
+
+    </div>
+    
+<script src="https://kit.fontawesome.com/a39529bac0.js" crossorigin="anonymous"></script>
+
+<script>
+    
+    let list = document.getElementById("menuitems");
+    let picClick = document.getElementById("faceboi");
+
+    picClick.addEventListener('click', (menuToggle) => {
+        if(list.style.visibility =='visible'){
+            list.style.visibility = 'hidden'
+        } else {list.style.visibility = 'visible'}
+    });
+    
+    // function menuToggle(e) {
+    //     console.log(e)
+    //     e.preventDefault();
+    //     console.log(list.style.visibility)
+    //     if (list.style.visibility == 'visible'){
+    //         list.style.visibility = 'hidden'
+    //     } else {list.style.visibility = 'visible'}
+    // };
+
+
+    
+ 
+</script>    
 </body>
+
 </html>

@@ -1,0 +1,128 @@
+/* RGB 
+$color1: rgba(225, 225, 226, 1); PLATINUM
+$color2: rgba(35, 17, 35, 1); RAISIN BLACK
+$color3: rgba(218, 104, 67, 1); Medium Verillion
+$color4: rgba(254, 239, 198, 1); Blanched Almond
+$color5: rgba(251, 215, 159, 1); Tuscon*/
+
+
+
+.container-fluid {
+    background-image: url("https://images.unsplash.com/photo-1549176755-e67f625da235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1646&q=80");
+    /* border: 8px dotted seagreen; */
+    background-size: 100% 100%;
+    /* for justify content try 'space evenly' */
+    
+    
+    /* align-content: space-between; */
+    /* flex-direction: column; */
+}
+p{
+    color:rgba(35, 17, 35, 1);
+    font-size: 18px;
+}
+ .row{
+     background-color:rgba(254, 239, 198, 1) ;
+    display:flex;
+    justify-content: center;
+    border: 3px solid rgba(35, 17, 35, 1);
+    text-align: center;
+
+    
+} 
+
+#mainrow{
+    background-color: transparent;
+    border: none;
+}
+
+.col{
+    text-align: center;
+}
+
+.listitems{
+    color:rgba(218, 104, 67, 1);
+    text-decoration: none;
+}
+
+.mainheader-myname{
+    /* border: 4px dotted; */
+    color: rgba(35, 17, 35, 1);
+    font-size: 110px;
+    text-shadow: 6px 6px 2px rgba(251, 215, 159, 1);
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.mainheader-job{
+text-align: center;
+font-size: 50px;
+text-shadow: 4px 4px 2px rgba(251, 215, 159, 1);
+letter-spacing: 2px;
+color:  rgba(35, 17, 35, 1);
+}
+
+#job-header{
+    background-color: rgba(254, 239, 198, 1);
+}
+#gitlink {
+    text-align: right;
+}
+
+
+#linkedlink{
+    text-align: left;
+}
+
+#faceboi{
+    height: 460px;
+    width: 450px;
+    border-radius: 50%;
+    margin: 40px;
+}
+#menuitems{
+    font-size: 50px;
+    color: rgba(35, 17, 35, 1);
+    list-style: none;
+    visibility: hidden;
+    
+}
+
+
+ul a:hover{
+    text-decoration: none;
+
+    
+}
+
+#faceboi:hover{
+    cursor: pointer;
+}
+
+
+
+li{
+    border:2px solid  rgba(35, 17, 35, 1);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(254, 239, 198, 1);
+}
+
+h1{
+    color:  rgba(35, 17, 35, 1);
+    
+}
+
+a{
+    
+    color:  rgba(35, 17, 35, 1);
+    text-decoration: none;
+
+}
+
+.card{
+    text-align: center;
+    color:  rgba(35, 17, 35, 1);
+    background-color: rgba(254, 239, 198, 1);
+    border: 2px solid rgba(35, 17, 35, 1);
+}
